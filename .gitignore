@@ -1,0 +1,9 @@
+# Compilados do Java
+*.class
+bin/
+
+# Configurações locais do VS Code e IDEs
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
