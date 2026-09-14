@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Listagem</h1>
+        <p><a href="cadastro.html" class="link-voltar">Voltar para cadastro</a></p>
+
+        <div class="bloco-pesquisa">
+            <label for="pesquisa">Pesquisar:</label>
+            <input type="text" id="pesquisa" placeholder="Digite nome ou CPF...">
+            <button type="button" id="btnBuscar">Buscar</button>
+        </div>
+
+        <p id="contadorUsuarios">Total listado: 0 usuário(s)</p>
+
+        <table class="tabela-usuarios">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaUsuarios">
+                <!-- As linhas do Java vão entrar aqui -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="listagem.js"></script>
+</body>
+
+</html>
